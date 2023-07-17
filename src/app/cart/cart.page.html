@@ -1,0 +1,39 @@
+<ion-content>
+  <ion-card>
+    <ion-card-header>
+      <ion-card-title>List of Orders</ion-card-title>
+    </ion-card-header>
+    <ion-list>
+      <ion-item>
+        <ion-checkbox justify="start"></ion-checkbox>
+      </ion-item>
+      <ion-item>
+        <ion-checkbox justify="start"></ion-checkbox>
+      </ion-item>
+      <ion-item>
+        <ion-checkbox justify="start"></ion-checkbox>
+      </ion-item>
+      <ion-item>
+        <ion-checkbox justify="start"></ion-checkbox>
+      </ion-item>
+    </ion-list>
+
+    <ion-radio-group value="end">
+      <ion-item>
+        <ion-radio value="end" justify="end">Total:</ion-radio>
+      </ion-item>
+    </ion-radio-group>
+    
+  </ion-card>
+  <ion-card>
+  <ion-list>
+    <ion-item color="light">
+      <ion-select label="Payment" placeholder="Select">
+        <ion-select-option value="Cash on Delivery">Cash on Delivery</ion-select-option>
+        <ion-select-option value="Online payment">Online Payment</ion-select-option>
+      </ion-select>
+    </ion-item>
+    <h4>50% CashBack</h4>
+    </ion-list>
+    <ion-button routerLink="/dashboard">Order<ion-icon slot="end" name="bag-check"></ion-icon></ion-button>
+  </ion-card>
